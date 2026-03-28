@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
@@ -42,7 +43,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 h-full flex items-center justify-center text-center">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="text-5xl md:text-7xl font-playfair font-bold mb-6 leading-tight">
+          <div className="text-5xl md:text-6xl font-playfair font-bold mb-6 leading-tight">
             <motion.div
               initial={{ y: 100, opacity: 0, rotateX: -90 }}
               animate={{ y: 0, opacity: 1, rotateX: 0 }}
@@ -68,7 +69,7 @@ const HeroSection = () => {
                 type: "spring",
                 stiffness: 120
               }}
-              className="text-amber-400 text-2xl md:text-4xl mt-6 font-light leading-relaxed"
+              className="text-amber-400 text-2xl md:text-3xl mt-6 font-light leading-relaxed"
             >
               <span className="block">Professional photography that captures</span>
               <span className="block">the essence of your most precious moments</span>
